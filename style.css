@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: peachpuff;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    margin: 10vh;
+    border-radius: 25px;
+    width: 30vw;
+    /* height: 50vw; */
+}
+
+button{
+    background-color: coral;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+}
